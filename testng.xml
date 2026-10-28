@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org">
+
+<suite name="MakeMyTrip Automation Suite" verbose="2">
+
+    <listeners>
+        <listener class-name="listeners.AllureTestListener"/>
+    </listeners>
+
+    <test name="Homestays Search Workflow">
+        <classes>
+            <class name="tests.MMTLandingPageTest"/>
+        </classes>
+    </test>
+
+</suite>

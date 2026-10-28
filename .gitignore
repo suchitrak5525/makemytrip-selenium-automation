@@ -1,0 +1,22 @@
+
+# Maven build output
+target/
+
+# Allure generated reports
+allure-results/
+allure-report/
+allure-history/
+
+# Local Allure installation
+.allure/
+
+# IDE files
+.idea/
+*.iml
+
+# VS Code settings (ignore unless your team needs shared settings)
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
